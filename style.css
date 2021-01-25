@@ -1,0 +1,577 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.image-background {
+    width: 100%;
+    height: 76vh;
+    position: static;
+}
+
+.box-image-init {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 3rem;
+}
+
+.image-title-1 {
+    width: 25vw;
+    position: relative;
+    z-index: 0;
+    top: 8px;
+    left: 20.2rem;
+}
+
+.person-main-header {
+    width: 60%;
+    height: 84vh;
+    z-index: 1;
+}
+
+.image-title-2 {
+    width: 25vw;
+    position: relative;
+    right: 9.6rem;
+    top: 8px;
+}
+
+.box-text-init {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    margin-top: -7rem;
+    margin-right: 13rem;
+}
+
+.text-init {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin-right: 5.4rem;
+}
+
+.text-init-2 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    margin-right: 9px;
+}
+
+
+b {
+    font-size: 1em;
+}
+
+.line-init {
+    height: 2px;
+    width: 8rem;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.box-next-current {
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
+}
+
+.counter-image-current {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.counter-image {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.label-header {
+    margin-left: 10px;
+    margin-right: 23px;
+}
+
+.button-image-header {
+    background-color: #A9BDC1;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container-part-two {
+    display: flex;
+}
+
+.background-header-part-two {
+    background-image: url(assets/sta\ uo\ robot.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 74rem;
+    margin-top: -10px;
+    position: relative;
+}
+
+.box-play-game {
+    background-image: url(assets/strom\ trupe\ red.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 42%;
+    height: 37%;
+    position: relative;
+    top: -4rem;
+    left: 13rem;
+    z-index: 1;
+}
+
+.box-text-play-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-play-game {
+    font-size: 1.7em;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 60%;
+    text-align: center;
+    margin-top: 4.5rem;
+}
+
+.description-play-game {
+    font-size: 12px;
+    color: #ffffff;
+    width: 92%;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.button-download-1 {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 56%;
+    height: 2.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 2.5rem;
+}
+
+.test-play-game {
+    font-size: 8px;
+    color: #ffffff;
+    text-align: end;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+
+.person-part-two {
+    width: 211%;
+    position: relative;
+    margin-top: 23rem;
+    z-index: 1;
+}
+
+.container-game {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-about {
+    display: flex;
+    margin-top: 10rem;
+}
+
+.box-about-game {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-about-game {
+    width: 53%;
+    line-height: 58px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-left: 7.9rem;
+    border-bottom: 2px solid;
+}
+
+.description-about-game {
+    width: 92%;
+    text-align: end;
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+.description-about-game-2 {
+    width: 92%;
+    text-align: end;
+    font-size: 12px;
+}
+
+
+.image-about-game {
+    width: 39%;
+    height: 11rem;
+    margin-right: 53px;
+}
+
+.division-about-menu {
+    width: 164%;
+    height: 3px;
+    background-color: #707070;
+    position: relative;
+    margin-top: 9rem;
+    margin-left: -28rem;
+}
+
+.container-menu {
+    display: flex;
+    width: 90%;
+    margin-top: 10rem;
+}
+
+.title-structure-game {
+    font-size: 3em;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: end;
+}
+
+.list-menu {
+    width: 126%;
+    list-style: none;
+    text-align: end;
+    cursor: pointer;
+    margin-left: -4rem;
+    position: relative;
+}
+
+.item-list-menu {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-top: 22px;
+}
+
+.item-list-menu:hover {
+    width: 100%;
+    background-color: red;
+    color: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+
+.person-part-three {
+    width: 20rem;
+    margin-top: -1rem;
+    margin-left: 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+main {
+    background-color: #2D2D2D;
+    width: 100%;
+    height: 220vh;
+    position: relative;
+    top: 63.9rem;
+}
+
+.title-main {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-left: 15rem;
+    position: relative;
+    top: 7rem;
+}
+
+.container-images {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.image-main-1 {
+    background-image: url(assets/134840-games-review-star-wars-battlefront-review-image1-NkRao9Jw12@2x.png);
+    width: 40%;
+    height: 18.9rem;
+    margin-top: 4px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container-set-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+
+.image-set-1 {
+    background-image: url(assets/Security_stormtrooper_HUC2-FF-003301.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15.4rem;
+    height: 9.9rem;
+    margin-top: 4px;
+}
+
+.image-set-2 {
+    background-image: url(assets/star\ game.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15.4rem;
+    height: 9.9rem;
+    margin-top: 4px;
+}
+
+.image-set-3 {
+    background-image: url(assets/naves\ em\ batalha\ star\ wars.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15.4rem;
+    height: 11.7rem;
+    margin-top: -8px;
+}
+
+.image-set-4 {
+    background-image: url(assets/stormtrup.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15.4rem;
+    height: 11.7rem;
+    margin-top: -8px;
+}
+
+.text-image-main {
+    background-color: rgb(255, 0, 0, 0.5);
+    width: 100%;
+    height: 9.6rem;
+    position: relative;
+    display: none;
+}
+
+.border-new-graphics {
+    width: 100%;
+    height: 9.4rem;
+}
+
+.title-new-graphics {
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 50%;
+    margin-left: 1.5rem;
+    position: relative;
+    top: 1rem;
+}
+
+.description-new-graphics {
+    color: #ffffff;
+    font-size: 9px;
+    width: 12rem;
+    margin-left: 1.5rem;
+    margin-top: 20px;
+}
+
+.button-new-graphics {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 10px;
+    width: 6rem;
+    height: 1.8rem;
+    margin-left: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.main-part-two {
+    display: flex;
+    justify-content: center;
+}
+
+.image-big-main {
+    background-image: url(assets/grande.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 63rem;
+    height: 100vh;
+    margin-right: 1.15rem;
+}
+
+.description-image-big {
+    font-size: 14px;
+    color: #ffffff;
+    width: 47%;
+    text-align: end;
+    margin-left: 33.5rem;
+    margin-top: -3rem;
+}
+
+.text-how-to-play {
+    color: #ffffff;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.box-buttons-person {
+    display: flex;
+    align-items: center;
+}
+
+.image-person-four {
+    width: 22rem;
+    margin-top: -10rem;
+    margin-left: 4rem;
+}
+
+.box-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.number-buttons {
+    font-size: 2em;
+    margin-left: 3rem;
+}
+
+.number-buttons:hover {
+    font-weight: 900;
+}
+
+.button-footer {
+    background-color: black;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    width: 9rem;
+    height: 3rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.button-footer:hover {
+    background-color: #D74430;
+}
+
+.description-button {
+    font-size: 15px;
+    width: 8rem;
+    margin-left: 8px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.line-buttons {
+    width: 5rem;
+    height: 2px;
+    margin-top: 1rem;
+    margin-left: 34px;
+    background-color: black;
+}
+
+.container-footer {
+    display: flex;
+    margin-top: 88rem;
+}
+
+.box-rose-footer{
+    background-color: #FF5A56;
+    width: 86%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-app {
+    font-size: 1.7em;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 12rem;
+}
+
+.paragraph-footer-1 {
+    color: #ffffff;
+    font-size: 14px;
+    width: 49%;
+    margin-left: 12rem;
+    margin-top: 1rem;
+}
+
+.box-image-apps {
+    display: flex;
+    margin-left: 12rem;
+    margin-top: 1rem;
+}
+
+.image-app-1 {
+    width: 11rem;
+}
+
+.image-app-2 {
+    width: 11rem;
+    margin-left: 1rem;
+}
+
+
+.line-footer {
+    width: 23rem;
+    height: 3px;
+    background-color: #D74430;
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+
+.logo-footer {
+    width: 9rem;
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+
+.paragraph-footer-2 {
+    color: #ffffff;
+    font-size: 14px;
+    width: 46%;
+    margin-left: 12rem;
+    margin-top: 1rem;
+}
+
+.person-footer {
+    width: 24rem;
+    position: relative;
+    top: -4rem;
+    left: -6rem;
+}
+
+.text-footer {
+    font-size: 12px;
+    width: 48%;
+    margin-top: -6rem;
+    position: relative;
+    left: 5rem;
+}
